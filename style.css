@@ -1,0 +1,37 @@
+* {
+    background-color: rgba(32, 29, 71, 1);
+}
+
+
+h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    line-height: 90px;
+    color: rgba(255, 255, 255, 1);
+    width: 317px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    font-size: 60px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 397px;
+    
+}
+
+input {
+    height: 55px;
+    border-radius: 11.0388px;
+    margin-bottom: 18px;
+    border: 1px solid #7473D0;
+}
+
+button {
+    width: 397px;
+    height: 54.34px;
+    border-radius: 11.0388px;
+}
