@@ -1,12 +1,28 @@
 * {
     background-color: rgba(32, 29, 71, 1);
+    margin: 0;
+    padding: 0;
 }
 
+.logo {
+    padding-left: 63px;
+    padding-top: 58px;
+    padding-bottom: 100px;
+}
+
+.mainDiv {
+    display: flex;
+    align-items: center;
+}
+
+#cityArt {
+    padding-left: 146px;
+}
 
 h1 {
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     line-height: 90px;
     color: rgba(255, 255, 255, 1);
     width: 317px;
@@ -14,13 +30,29 @@ h1 {
     display: flex;
     align-items: center;
     font-size: 60px;
+    margin-bottom: 2px;
+}
+
+p {
+    width: 262px;
+    height: 30px;
+    margin-bottom: 68px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7473D0;
+    display: flex;
+    align-items: center;
 }
 
 form {
     display: flex;
     flex-direction: column;
     max-width: 397px;
-    
+
 }
 
 input {
@@ -28,10 +60,34 @@ input {
     border-radius: 11.0388px;
     margin-bottom: 18px;
     border: 1px solid #7473D0;
+    align-items: center;
+
 }
 
 button {
     width: 397px;
     height: 54.34px;
     border-radius: 11.0388px;
+    background: #42E8E0;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    border: none;
+}
+
+#leftSide {
+    padding-left: 84px;
+}
+
+::-webkit-input-placeholder {
+    color: #B1AFCD;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    padding-left: 18px;
 }
