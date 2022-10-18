@@ -26,6 +26,14 @@ header {
     justify-content: space-between;
 }
 
+.auxLogin {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .loginAux {
 
     background-color: transparent;
@@ -37,7 +45,6 @@ header {
 }
 
 .login {
-    display: flex;
     align-items: center;
     width: fit-content;
     height: 25.48px;
@@ -51,17 +58,21 @@ header {
 }
 
 .contact {
+    position: absolute;
+    margin-top: 10px;
     display: flex;
+    right: 450px;
+    
     text-align: center;
     justify-content: center;
     align-items: center;
     width: 257px;
-    right: 400px;
+    
     height: 102px;
-    position: absolute;
     background: linear-gradient(268.95deg, rgba(41, 37, 88, 0.536345) 4.06%, rgba(38, 35, 83, 0.866791) 42.35%, rgba(40, 38, 89, 0.50218) 99.53%);
     border-radius: 11.0388px;
     line-height: 40px;
+    margin-right: 20px;
 }
 
 body {
@@ -80,6 +91,8 @@ body {
 }
 
 .title {
+    display: flex;
+    justify-content: space-between;
     padding-left: 60px;
     padding-bottom: 35.22px;
 }
